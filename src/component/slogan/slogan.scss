@@ -1,0 +1,21 @@
+.top-banner {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-bottom: rgb(238, 235, 235) solid 0.1rem;
+
+  &__content {
+    display: inline-block;
+    color: red;
+    font-size: 1.1rem;
+    letter-spacing: 0.8rem;
+    margin: 0rem 3rem;
+  }
+}
+
+.banner {
+  width: 78%;
+  margin: 1.5rem auto;
+  display: block;
+  position: relative;
+}
